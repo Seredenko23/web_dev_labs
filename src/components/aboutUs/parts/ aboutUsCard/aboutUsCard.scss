@@ -1,0 +1,45 @@
+@import '../../../../scss/colors';
+
+.card {
+  margin: 0 75px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  &-photo {
+    height: 620px;
+    width: 480px;
+  }
+  &-title, &-description {
+    color: $main-font-color;
+    z-index: 1;
+    font-size: 48px;
+  }
+  &:after {
+    content: '';
+
+    position: absolute;
+    left: -145px;
+    top: 0;
+
+    background-color: $main-color;
+
+    width: 330px;
+    height: 90px;
+    transform: rotateZ(-45deg);
+  }
+  &:before {
+    content: '';
+
+    position: absolute;
+    left: 255px;
+    top: 575px;
+
+    background-color: $main-color;
+
+    width: 330px;
+    height: 90px;
+    transform: rotateZ(-45deg);
+  }
+}
