@@ -11,13 +11,13 @@ class Menu extends Component {
                     </span>
                 </div>
                 <div className={'links-wrapper'}>
-                    <a className={'link'}>
+                    <a className={'link'} href={'#aboutUs'}>
                         Про себе
                     </a>
-                    <a className={'link'}>
+                    <a className={'link'} href={'#profession'}>
                         Професія
                     </a>
-                    <a className={'link'}>
+                    <a className={'link'} href={'#hobby'}>
                         Хоббі
                     </a>
                 </div>

@@ -8,7 +8,7 @@ import vadim from '../../assets/vadim.jpg'
 class AboutUs extends Component {
     render() {
         return (
-            <section className={'about-us-section'}>
+            <section className={'about-us-section'} id={'aboutUs'}>
                 <Menu/>
                 <div className={'card-wrapper'}>
                     <AboutUsCard title={'Влад Середенко'} description={'Прихильник Лєпса'} photo={vados}/>

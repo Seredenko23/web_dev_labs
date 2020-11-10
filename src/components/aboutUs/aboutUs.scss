@@ -10,4 +10,11 @@
     justify-content: center;
     align-items: center;
   }
+  .link {
+    color: $main-font-color;
+    text-decoration: none;
+  }
+  .link:visited {
+    color: $main-color;
+  }
 }

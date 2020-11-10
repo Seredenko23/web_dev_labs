@@ -1,0 +1,37 @@
+@import '../../../scss/colors';
+
+.hobby-card {
+  position: relative;
+  width: 700px;
+  height: 700px;
+  .hobby-title {
+    font-size: 48px;
+    color: $main-font-color;
+    margin-bottom: 30px;
+  }
+  .hobby-ball {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: white;
+  }
+  .s1 {
+    height: 100px;
+    width: 100px;
+  }
+  .s2 {
+    height: 160px;
+    width: 160px;
+  }
+  .s3 {
+    height: 200px;
+    width: 200px;
+  }
+  .s4 {
+    height: 240px;
+    width: 240px;
+  }
+
+}
