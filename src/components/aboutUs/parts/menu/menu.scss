@@ -1,7 +1,8 @@
 @import '../../../../scss/colors';
 
 .nav-menu {
-  position: absolute;
+  top: 0;
+  position: relative;
   height: 70px;
   width: 100%;
   background-color: $menu-bar-color;
@@ -20,7 +21,12 @@
   }
   .link {
     margin: 0 10px;
-    cursor: pointer
+    cursor: pointer;
+    color: $main-font-color;
+    text-decoration: none;
+  }
+  .link:visited {
+    color: $main-color;
   }
 }
 

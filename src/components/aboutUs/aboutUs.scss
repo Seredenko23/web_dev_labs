@@ -1,7 +1,11 @@
 @import "../../scss/colors";
 
 .about-us-section {
-  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px 0;
   background-color: $main-color;
   .card-wrapper {
     height: 100%;
@@ -16,5 +20,13 @@
   }
   .link:visited {
     color: $main-color;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .about-us-section {
+    .card-wrapper {
+      flex-direction: column;
+    }
   }
 }
