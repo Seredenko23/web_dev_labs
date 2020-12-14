@@ -1,7 +1,5 @@
-// Set this to true for production
-let doCache = false;
+const doCache = true;
 
-// Name our cache
 const CACHE_NAME = 'my-pwa-cache-v1';
 
 self.addEventListener("activate", event => {
